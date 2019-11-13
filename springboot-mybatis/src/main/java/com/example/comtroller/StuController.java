@@ -19,6 +19,7 @@ public class StuController {
 
     @GetMapping("/findAll")
     public List<Stu> findAll() {
+
         return stuService.findAll();
     }
 
